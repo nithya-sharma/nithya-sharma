@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @nithya-sharma
 - 👀 I’m interested in data science
-- 🌱 I’m currently learning CSE with business analytics 
+- 🌱 I’m currently doing CSE with business analytics 
 - 💞️ I’m looking to collaborate on data analysis
 - 📫 How to reach me @nithya4434@gmail.com
 
