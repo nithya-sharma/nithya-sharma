@@ -2,7 +2,7 @@
 Hi! I’m **Nithya Sharma**, an Integrated MTech graduate in Computer Science & Engineering with a specialization in Business Analytics from **VIT Chennai (2019–2024)**. I’m currently working as a **Jr. Data Engineer at Betamonks Technology Factory**, where I build **LLM-powered tools, dashboards, and APIs** using **LangChain, FastAPI, and React**.  
 
 I’m passionate about combining **data, AI, and engineering** to create meaningful applications. Outside of work, I enjoy **painting, drawing, and reading fiction**.
-
+Portfolio : [https://nithya-sharma.vercel.app/](https://nithya-sharma.vercel.app/)
 ---
 
 ## Experience
