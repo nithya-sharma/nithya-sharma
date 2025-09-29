@@ -85,13 +85,15 @@ const HeroSection = () => {
             >
               Explore My Work
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="px-8 py-4 text-lg border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground rounded-full transition-all duration-300"
-            >
-              Download Resume
-            </Button>
+            <Button
+  asChild // <- this tells shadcn/ui Button to render as <a>
+  size="lg"
+  className="btn-gradient px-8 py-4 text-lg font-semibold rounded-full">
+  <a href="/resume.pdf" download>
+    Download Resume
+  </a>
+</Button>
+
           </div>
 
          {/* Social Links */}

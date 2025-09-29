@@ -41,13 +41,13 @@ const ContactSection = () => {
       href: 'https://www.linkedin.com/in/nithya-sharma01/',
       description: 'Professional networking'
     },
-    {
-      icon: Calendar,
-      label: 'Schedule Call',
-      value: 'Book a meeting',
-      href: '#',
-      description: '15-30 min project discussions'
-    }
+    // {
+    //   icon: Calendar,
+    //   label: 'Schedule Call',
+    //   value: 'Book a meeting',
+    //   href: '#',
+    //   description: '15-30 min project discussions'
+    // }
   ];
 
   const socialLinks = [
@@ -353,7 +353,7 @@ const ContactSection = () => {
         </div>
 
         {/* Bottom CTA */}
-        <div className="mt-20 text-center reveal-up">
+        {/* <div className="mt-20 text-center reveal-up">
           <div className="bg-gradient-surface rounded-3xl p-12 max-w-4xl mx-auto">
             <h3 className="text-3xl font-serif font-bold mb-4">
               Ready to Collaborate?
@@ -371,7 +371,7 @@ const ContactSection = () => {
               </Button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

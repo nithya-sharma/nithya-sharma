@@ -68,14 +68,19 @@ const Navigation = () => {
               ))}
               
               {/* Resume Download */}
-              <Button 
-                variant="outline" 
-                size="sm"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-              >
-                <Download className="w-4 h-4 mr-2" />
-                Resume
-              </Button>
+             {/* Resume Download (Desktop) */}
+<Button 
+  asChild
+  variant="outline" 
+  size="sm"
+  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+>
+  <a href="/resume.pdf" download>
+    <Download className="w-4 h-4 mr-2" />
+    Resume
+  </a>
+</Button>
+
             </div>
 
             {/* Mobile Menu Button */}
@@ -114,13 +119,19 @@ const Navigation = () => {
               ))}
               
               <div className="pt-4 border-t border-border">
-                <Button 
-                  variant="outline" 
-                  className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                >
-                  <Download className="w-4 h-4 mr-2" />
-                  Download Resume
-                </Button>
+              
+<Button 
+  asChild
+  variant="outline" 
+  size="sm"
+  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+>
+  <a href="/resume.pdf" download>
+    <Download className="w-4 h-4 mr-2" />
+    Resume
+  </a>
+</Button>
+
               </div>
             </div>
           </div>

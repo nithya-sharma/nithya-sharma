@@ -105,7 +105,7 @@ const CreativeSection = () => {
             {[
               { id: 'art', label: 'Visual Art', icon: Palette },
               { id: 'books', label: 'Book Moodboards', icon: BookOpen },
-              { id: 'quotes', label: 'Inspiration', icon: Quote }
+              // { id: 'quotes', label: 'Inspiration', icon: Quote }
             ].map(({ id, label, icon: Icon }) => (
               <button
                 key={id}
